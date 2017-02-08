@@ -347,22 +347,22 @@
         font-size:15px;
     }
     .page2 img[swiper-animate-delay='0s']{
-        width: 64.6%;left: 0;right:0;top: 6%;
+        width: 64.6%;left: 0;right:0;top: 20px;
     }
     .page2 p[swiper-animate-delay='1s']{
-        left:32%;top:16%;
+        left:32%;top:80px;
     }
     .page2 p[swiper-animate-delay='1.5s']{
-        left:32%;top:24.6%;
+        left:32%;top:121px;
     }
     .page2 p[swiper-animate-delay='2s']{
-        left:32%;top:32.3%;
+        left:32%;top:162px;
     }
     .page2 p[swiper-animate-delay='2.5s']{
-        left:32%;top:40.7%;
+        left:32%;top:203px;
     }
     .page2 p[swiper-animate-delay='3s']{
-        left:32%;top:49%;
+        left:32%;top:244px;
     }
     .page5 .more{ width:100%;text-align:center;top:37.4%;font-size:21px;font-weight:bold;color:white;}
     .page5 .add{width:100%;text-align:center;top:78.2%;font-size:17px;font-weight:bold;color:#0A898B;}
