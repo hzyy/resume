@@ -347,13 +347,13 @@
         font-size:15px;
     }
     .page2 img[swiper-animate-delay='0s']{
-        width: 64.6%;left: 0;right:0;top: 8%;
+        width: 64.6%;left: 0;right:0;top: 4%;
     }
     .page2 p[swiper-animate-delay='1s']{
         left:32%;top:16%;
     }
     .page2 p[swiper-animate-delay='1.5s']{
-        left:32%;top:25.6%;
+        left:32%;top:24.6%;
     }
     .page2 p[swiper-animate-delay='2s']{
         left:32%;top:32.3%;
