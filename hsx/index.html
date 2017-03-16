@@ -145,18 +145,18 @@
         </div>
     </div>
 </div>
-    <!--<script src="js/jquery.min.js"></script>-->
-    <!--<script src="js/imgLoader.js"></script>-->
-    <!--<script type="text/javascript">-->
-        <!--imgLoader(["图片1.png","图片2.png","图片3.png","图片4.png","图片5.png","图片6.png","图片7.png","图片8.png","图片9.png","图片10.png","图片11.png","图片12.png","图片13.png","图片14.png","图片15.png","图片16.png","图片17.png","图片18.png","图片19.png","图片20.png"], function (percentage) {-->
-            <!--var percentT = percentage * 100;-->
-            <!--$('#loader__info').html('Loading ' + (parseInt(percentT)) + '%');-->
-            <!--$('#loader__progress')[0].style.width = percentT + '%';-->
-            <!--if (percentage == 1) {-->
-                <!--$('#loader').hide();-->
-                <!--$('.main').show();-->
-            <!--}-->
-        <!--});-->
-    <!--</script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/imgLoader.js"></script>
+    <script type="text/javascript">
+        imgLoader(["图片1.png","图片2.png","图片3.png","图片4.png","图片5.png","图片6.png","图片7.png","图片8.png","图片9.png","图片10.png","图片11.png","图片12.png","图片13.png","图片14.png","图片15.png","图片16.png","图片17.png","图片18.png","图片19.png","图片20.png"], function (percentage) {
+            var percentT = percentage * 100;
+            $('#loader__info').html('Loading ' + (parseInt(percentT)) + '%');
+            $('#loader__progress')[0].style.width = percentT + '%';
+            if (percentage == 1) {
+                $('#loader').hide();
+                $('.main').show();
+            }
+        });
+    </script>
 </body>
 </html>
