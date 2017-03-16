@@ -129,7 +129,7 @@ a {
     margin: auto;
     width: 202px;
     height: 106px;
-    font-family: SimHei;
+    font-family: "SimHei";
     overflow: hidden;
     display: inline-block;
     font-size: 63px;
@@ -138,7 +138,7 @@ a {
 /*page2*/
 .page2 .picture2{top:0;left: 311px;right: 0;bottom: 0;margin: auto}
 .page2 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -154,7 +154,7 @@ a {
     left: 66px;
     line-height: 50px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 32px;
 }
 /*page3*/
@@ -162,10 +162,10 @@ a {
     top: 0px;
     left: 613px;
     right: 0px;
-    bottom: 185px;
+    bottom: 0;
     margin: auto;}
 .page3 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -177,14 +177,14 @@ a {
     background-color: #F5C9D0;
 }
 .page3 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page3 .message,.page3 .message2{
     top: 118px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page3 .message{
@@ -202,7 +202,7 @@ a {
     bottom: 0px;
     margin: auto;}
 .page4 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -214,14 +214,14 @@ a {
     background-color: #F5C9D0;
 }
 .page4 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page4 .message,.page4 .message2{
     top: 204px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page4 .message{
@@ -239,7 +239,7 @@ a {
     bottom: 0px;
     margin: auto;}
 .page5 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -251,14 +251,14 @@ a {
     background-color: #F5C9D0;
 }
 .page5 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page5 .message,.page5 .message2{
     top: 245px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page5 .message{
@@ -276,7 +276,7 @@ a {
     bottom: 0px;
     margin: auto;}
 .page6 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -288,14 +288,14 @@ a {
     background-color: #F5C9D0;
 }
 .page6 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page6 .message,.page6 .message2{
     top: 223px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page6 .message{
@@ -306,10 +306,10 @@ a {
     top: 0px;
     left: 613px;
     right: 0px;
-    bottom: 185px;
+    bottom: 0;
     margin: auto;}
 .page7 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -321,14 +321,14 @@ a {
     background-color: #F5C9D0;
 }
 .page7 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page7 .message,.page7 .message2{
     top: 167px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page7 .message{
@@ -346,7 +346,7 @@ a {
     bottom: 0px;
     margin: auto;}
 .page8 .title{
-    font-family: SimHei;
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -358,34 +358,34 @@ a {
     background-color: #F5C9D0;
 }
 .page8 .title span{
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 30px;
 }
 .page8 .message,.page8 .message2{
     top: 244px;
     left: 40px;
     font-weight: 500;
-    font-family: SimHei;
+    font-family: "SimHei";
     font-size: 29px;
 }
 .page8 .message{
     width: 581px;
 }
 /*page9*/
-.page9{
+.page9,.page10{
     background-color: #F6E9EC;
     overflow: hidden;border-width: 10px 0 0 0;
     border-color: #888;border-style:solid;
 
 }
-.page9 .picture2{
+.page9 .picture2,.page10 .picture2{
     top: 0px;
     left: 613px;
     right: 0px;
     bottom: 0px;
     margin: auto;}
-.page9 .title{
-    font-family: SimHei;
+.page9 .title,.page10 .title{
+    font-family: "SimHei";
     border: 1px solid #D23B2B;
     width: 300px;
     height: 50px;
@@ -400,4 +400,11 @@ a {
     left: 40px;
     margin: 20px auto;
     text-align: center;
+}
+.page10 .message{
+    margin: 40px  43px 40px;
+    text-align: left;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
 }
