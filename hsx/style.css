@@ -399,14 +399,30 @@ a {
     margin: 45px;
     text-align: center;
 }
-.page9 .message img{
-max-width: 800px;
-    margin-top: 20px;
-}
 .page10 .message{
     margin: 40px  43px 40px;
     text-align: left;
     font-weight: 500;
     font-family: "SimHei";
     font-size: 29px;
+}
+.img1{
+    max-width: 450px;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg);   
+    -moz-transform:rotate(-15deg);   
+    -webkit-transform:rotate(-15deg); 
+    -o-transform:rotate(-15deg); 
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.img2{
+    max-width: 450px;
+    transform:rotate(15deg);
+    -ms-transform:rotate(15deg);   
+    -moz-transform:rotate(15deg);   
+    -webkit-transform:rotate(15deg); 
+    -o-transform:rotate(15deg); 
+    vertical-align: middle;
+    margin-top: 40px;
 }

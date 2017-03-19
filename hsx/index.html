@@ -150,31 +150,21 @@
         <img class="pos picture2" src="图片19.png"/>
     </div>
     <div class="page9">
-        <div class="title">快乐家家家剧照展示</div>
+        <div class="title">剧照展示</div>
         <div class="message">
-            <img src="21.jpg" />
-            <img src="22.jpg" />
-            <img src="23.jpg" />
-            <img src="24.jpg" />
-        </div>
-    </div>
-    <div class="page9">
-        <div class="title">小球星剧照展示</div>
-        <div class="message">
-            <img src="31.jpg" />
-            <img src="32.jpg" />
-            <img src="33.jpg" />
-            <img src="34.jpg" />
-            <img src="35.jpg" />
-            <img src="36.jpg" />
-            <img src="37.jpg" />
+            <p><img class="img1" src="21.jpg" /><span style="font-size:50px;margin-left:40px;">奔跑吧，小球星！</span></p>
+            <p><span style="font-size:50px;margin-right:40px;">绿色大作战</span><img class="img2" src="22.jpg" /></p>
+            <p><img class="img1" src="23.jpg" /><span style="font-size:50px;margin-left:40px;">快乐家家家</span></p>
+            <p><span style="font-size:50px;margin-right:40px;">棉花糖和云朵妈妈</span><img class="img2" src="24.jpg" /></p>
+            <p style="font-size:50px;margin-top:40px;line-height:120px;">图片展示</p>
+            <img src="25.jpg" style="max-width:800px;" alt="">
         </div>
     </div>
 </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/imgLoader.js"></script>
     <script type="text/javascript">
-        imgLoader(["图片1.png","图片2.png","图片3.png","图片7.png","图片10.png","图片15.png","图片16.png","图片19.png","21.jpg","22.jpg","23.jpg","24.jpg","31.jpg","32.jpg","33.jpg","34.jpg","35.jpg","36.jpg","37.jpg"], function (percentage) {
+        imgLoader(["图片1.png","图片2.png","图片3.png","图片7.png","图片10.png","图片15.png","图片16.png","图片19.png","21.jpg","22.jpg","23.jpg","24.jpg","25.jpg"], function (percentage) {
             var percentT = percentage * 100;
             $('#loader__info').html('Loading ' + (parseInt(percentT)) + '%');
             $('#loader__progress')[0].style.width = percentT + '%';
