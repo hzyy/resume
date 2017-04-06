@@ -1,0 +1,434 @@
+/*reset*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-text-size-adjust: none
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    font-family: "SimHei";
+    text-align: left;
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none
+}
+
+ins {
+    text-decoration: none
+}
+
+del {
+    text-decoration: line-through
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+h2, h3, h4, h5, h6 {
+    color: #5c6653;
+    text-shadow: 0px 1px white;
+    margin-bottom: 22px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+.tc {
+    text-align: center;
+}
+
+/*loading*/
+
+.loader {
+    background: #C0DAD9;
+}
+
+.loader__bar {
+    font-size: 50px;
+    color: #fff;
+    line-height: 2em;
+    height: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10em;
+    text-align: center;
+    margin-left: -5em;
+    margin-top: -1em;
+    overflow: hidden;
+}
+
+.loader__progress, .loader__progress-bg, .loader__info {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.loader__progress {
+    z-index: 1;
+    width: 0;
+    background: #1A3831;
+    border-radius: 1em;
+}
+
+.loader__progress-bg {
+    z-index: 0;
+    width: 100%;
+    background: #3C776A;
+    border-radius: 1em;
+}
+
+.loader__info {
+    z-index: 2;
+    width: 100%;
+}
+/*==============================common==================================*/
+
+.contain{position:relative;border-width: 10px 0 0 0;
+    border-color: #888;border-style:solid;}
+.contain .bg{width:100%}
+.pos{position: absolute}
+/*page1*/
+.page1 .picture1{top:0;left: 0;right: 0;bottom: 0;margin: auto}
+.page1 .text1{
+    top: 183px;
+    left: 640px;
+    right: 0px;
+    bottom: 0;
+    margin: auto;
+    width: 202px;
+    height: 106px;
+    font-family: "SimHei";
+    overflow: hidden;
+    display: inline-block;
+    font-size: 63px;
+    font-weight: bold;
+}
+/*page2*/
+.page2 .picture2{top:0;left: 311px;right: 0;bottom: 0;margin: auto}
+.page2 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 100px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page2 .message{
+    top: 196px;
+    left: 66px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 32px;
+}
+/*page3*/
+.page3 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0;
+    margin: auto;}
+.page3 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 36px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page3 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page3 .message,.page3 .message2{
+    top: 118px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page3 .message{
+    width: 581px;
+}
+.page3 .message2{
+    top: 447px;
+    left: 40px;
+}
+/*page4*/
+.page14{
+        background-color: #F6E9EC;
+        padding: 0 40px 40px 40px;
+}
+.page14 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;}
+.page14 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 100px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+    margin: 60px 0 60px 100px;
+}
+.page14 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page14 .message,.page4 .message2{
+    top: 204px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page14 .message{
+    width: 581px;
+}
+.page14 .message2{
+    top: 447px;
+    left: 40px;
+}
+/*page5*/
+.page5 .picture2{
+    top: 0px;
+    left: 438px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;}
+.page5 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 137px;
+    left: 75px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page5 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page5 .message,.page5 .message2{
+    top: 245px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page5 .message{
+    width: 400px;
+}
+.page5 .message2{
+    top: 447px;
+    left: 40px;
+}
+/*page6*/
+.page6 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;}
+.page6 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 106px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page6 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page6 .message,.page6 .message2{
+    top: 223px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page6 .message{
+    width: 581px;
+}
+/*page7*/
+.page7 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0;
+    margin: auto;}
+.page7 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 80px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page7 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page7 .message,.page7 .message2{
+    top: 167px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page7 .message{
+    width: 581px;
+}
+.page7 .message2{
+    top: 500px;
+    left: 40px;
+}
+/*page8*/
+.page8 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;}
+.page8 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 300px;
+    height: 50px;
+    top: 155px;
+    left: 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page8 .title span{
+    font-family: "SimHei";
+    font-size: 30px;
+}
+.page8 .message,.page8 .message2{
+    top: 244px;
+    left: 40px;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.page8 .message{
+    width: 581px;
+}
+/*page9*/
+.page9,.page10{
+    background-color: #F6E9EC;
+    overflow: hidden;border-width: 10px 0 0 0;
+    border-color: #888;border-style:solid;
+
+}
+.page9 .picture2,.page10 .picture2{
+    top: 0px;
+    left: 613px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;}
+.page9 .title,.page10 .title{
+    font-family: "SimHei";
+    border: 1px solid #D23B2B;
+    width: 450px;
+    height: 50px;
+    margin: 58px 0 0 100px;
+    font-size: 44px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F5C9D0;
+}
+.page9 .message{
+    margin: 45px;
+    text-align: center;
+}
+.page10 .message{
+    margin: 40px  43px 40px;
+    text-align: left;
+    font-weight: 500;
+    font-family: "SimHei";
+    font-size: 29px;
+}
+.img1{
+    max-width: 450px;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg);   
+    -moz-transform:rotate(-15deg);   
+    -webkit-transform:rotate(-15deg); 
+    -o-transform:rotate(-15deg); 
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.img2{
+    max-width: 450px;
+    transform:rotate(15deg);
+    -ms-transform:rotate(15deg);   
+    -moz-transform:rotate(15deg);   
+    -webkit-transform:rotate(15deg); 
+    -o-transform:rotate(15deg); 
+    vertical-align: middle;
+    margin-top: 40px;
+}
+
