@@ -1,21 +1,21 @@
 
-#app[data-v-288975d1] {
+#app[data-v-2a1ff92f] {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html[data-v-288975d1] {
+html[data-v-2a1ff92f] {
   min-height: 100vh;
 }
-*[data-v-288975d1] {
+*[data-v-2a1ff92f] {
   transition: all .3s;
 }
 
-.code[data-v-2ca90776] {
+.code[data-v-7b165fb2] {
   display: none;
 }
 
-.htmlMode[data-v-2df95543] {
+.htmlMode[data-v-6e5a7da1] {
   animation: flip 2s;
 }
 @keyframes flip {
@@ -30,4 +30,4 @@ to {
 *{box-sizing: border-box;}
 *::before{box-sizing: border-box;}
 *::after{box-sizing: border-box;}
-/*# sourceMappingURL=app.9a508fe07092c7c9d79f9472a88f02e5.css.map*/
+/*# sourceMappingURL=app.1b9cd59d3c58010e8e44ccce2689fd62.css.map*/
