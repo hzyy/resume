@@ -105,7 +105,8 @@ html {
 `,
           `
 /* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+ * 对了，这是 Markdown 格式的，
+ * 我需要变成对 HR 更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -145,7 +146,9 @@ html {
         fullMarkdown: `何志悦
 ----
 
-从事web前端开发两年工作经验、熟练掌握web前端应用开发、熟悉各种浏览器的兼容问题。
+从事web前端开发两年工作经验、
+熟练掌握web前端应用开发、
+熟悉各种浏览器的兼容问题。
 
 技能
 ----
@@ -229,7 +232,6 @@ html {
               this.currentMarkdown = this.fullMarkdown.substring(0, this.currentMarkdown.length + 1)
               let lastChar = this.currentMarkdown[this.currentMarkdown.length - 1]
               let prevChar = this.currentMarkdown[this.currentMarkdown.length - 2]
-              console.log(prevChar)
               if (prevChar === '\n' && this.$refs.resumeEditor) {
                 this.$nextTick(() => this.$refs.resumeEditor.goBottom())
               }
