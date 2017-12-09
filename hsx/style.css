@@ -176,6 +176,7 @@ a {
     top: 0px;
     left: 613px;
     right: 0px;
+    width: 317px;
     bottom: 0;
     margin: auto;}
 .page3 .title{
@@ -212,6 +213,7 @@ top: 98px;
 .page4 .picture2{
     top: 0px;
     left: 613px;
+    width: 317px;
     right: 0px;
     bottom: 0px;
     margin: auto;}
@@ -247,9 +249,10 @@ top: 98px;
 }
 /*page5*/
 .page5 .picture2{
-    top: 0px;
-    left: 438px;
+top: 0px;
+    left: 416px;
     right: 0px;
+    width: 452px;
     bottom: 0px;
     margin: auto;}
 .page5 .title{
